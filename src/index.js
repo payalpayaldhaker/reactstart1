@@ -1,17 +1,22 @@
+///import area 
 import React from 'react';
+
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+import './App.css'
+import A from './A'
+    
+function My({student}){ 
+  return <React.Fragment> 
+            <span><strong>Types Related Searches{student} Here, Helpful Information, Compare Search Results.</strong></span>
+            <A />
+  </React.Fragment>
+}
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <span><strong>English proofreading: english  proofreading is done after editing and layout, after the page proofs</strong></span>
+    <My student={123444433243214} />
+ </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
