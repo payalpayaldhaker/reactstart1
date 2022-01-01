@@ -1,11 +1,19 @@
 import React, { Component } from 'react'
+import C from './C'
 import D from './D'
 
-export default class C extends Component {
+export default class B extends Component {
+    //state
+
+    //function 
+
+    //Return
+
     render() {
         return (
             <React.Fragment>
-                <span><strong>English Tutors from Melbourne to Sydney and across Australia From Shakespeare to Austen,</strong></span>
+                <div>goodmorning</div>
+                <C/>
                 <D/>
             </React.Fragment>
         )
